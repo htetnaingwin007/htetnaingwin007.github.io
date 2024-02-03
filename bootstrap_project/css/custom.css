@@ -1,0 +1,34 @@
+@font-face {
+    font-family: domine;
+    src: url(../Domine/Domine-VariableFont_wght.ttf);
+}
+*{
+    font-family: dominef;
+}
+
+
+
+.logo{
+    width: 120px;
+    height: 90px;
+}
+.navbar_hover:hover{
+    color: red!important;
+    display: inline-block!important;
+}
+.dropdown-toggle::after{
+    margin-left: .5em!important;
+}
+.cart_noti{
+    position: relative;
+    top: -45px;
+    left: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 5px;
+}
+/* .dropdown-menu{
+    --bs-dropdown-link-active-color: white;
+    --bs-dropdown-link-active-bg:red;
+} */
