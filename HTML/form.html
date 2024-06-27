@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form lesson</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="request.php" method="get">
+        <label for="name ">Name</label>
+        <input type="text" name="stu_name" id="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password">
+        <br>
+        <br>
+        <label for="phone">Phone</label>
+        <input type="number" name="stu_phone" id="phone">
+        <br>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="stu_dob" id="dob">
+        <br>
+        <br>
+        <label for="passport">Passport</label>
+        <input type="file" name="stu_passport" id="passport" accept=".pdf,.jpg">
+        <br>
+        <br>
+        <label for="">Gender</label>
+        <br>
+        <br>
+        <input type="radio" name="Gender" id="male" value="Male"><label for="male">Male</label>
+        <input type="radio" name="Gender" id="female" value="Female"><label for="female">Female</label>
+        <br>
+        <br>
+        <label for="year">Year</label>
+        <select name="year" id="year">
+            <option value="">Choose Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Hobby</label>
+        <br>
+        <br>
+        <input type="checkbox" name="movies" id="movies" value="movies"><label for="movies">Movies</label>
+        <input type="checkbox" name="gamming" id="gamming" value="gamming"><label for="gamming">Gamming</label>
+        <input type="checkbox" name="travelling" id="travelling" value="travelling"><label for="travelling">Travelling</label>
+        <br>
+        <br>
+        <label for="adress">Adress</label>
+        <textarea name="stu_adress" id="adress" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="time">
+        <br>
+        <br>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <input type="week">
+        <br>
+        <br>
+        <input type="color">
+        <br>
+        <br>
+        <input type="range" min="0" max="100">
+        <br>
+        <br>
+        <input type="text" required>
+        <br>
+        <br>
+        <input type="number" id="placeholder" placeholder="09-99833993">
+        <br>
+        <br>
+        <input type="text" readonly>
+        <input type="text" disabled>
+        <br>
+        <br>
+        <input type="text" name="def_value" value="35" required>
+        <br>
+        <br>
+        <br><br>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
