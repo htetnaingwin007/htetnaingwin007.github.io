@@ -1,3 +1,10 @@
+h1 {
+    /* color  */
+
+    /* 0 - > 9 a ->f  */
+    color: #862678;
+    text-align: center;
+}
 p {
     color: rgb(0, 255, 30);
     text-indent: 50px;
