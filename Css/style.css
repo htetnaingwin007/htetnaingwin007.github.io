@@ -73,3 +73,105 @@ p:target {
     letter-spacing: 20px;
 }
 
+/* layout lessons  */
+
+.inline {
+    border: 2px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block {
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
+}
+
+/* float  */
+.float_right img {
+    width: 40%;
+    float: right;
+}
+.float_left img {
+    width: 40%;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+/* grid  */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div,.gridfive div {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridtwo {
+    grid-column-gap: 40px;
+}
+.gridthree {
+    grid-row-gap: 40px;
+    /* grid-gap: 40px; */
+    grid-column-gap: 90px;
+}
+.columnadd {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* position  */
+.parent_absolute {
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+.absolute {
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.parent_relative {
+    width: 1200px;
+    height: 500px;
+    border: 2px solid purple;
+}
+.relative {
+    width: 400px;
+    height: 200px;
+    border: 2px solid rgb(128, 77, 0);
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.fixed {
+    position: fixed;
+    top: 50px;
+    left: 100px;
+}
+
+/* fonts  */
+.online {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: playwrite;
+    src: url(Playwrite_VN/PlaywriteVN-VariableFont_wght.ttf);
+}
+.offline {
+    font-family: playwrite;
+}
