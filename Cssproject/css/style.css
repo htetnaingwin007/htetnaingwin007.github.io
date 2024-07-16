@@ -89,12 +89,109 @@ nav {
     display: inline-block;
     padding: 10px 85px 10px 10px;
     border-radius: 5px;
+    /* width: 190px; */
     
 }
 .support_container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 0px;
-    margin: 20px 50px;
-    justify-content: space-evenly;
+    grid-column-gap: 10px;
+    margin: 30px 50px;
+    
 }
+
+/* end support  */
+
+/* start promotion  */
+.promo_itemtitle {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.promo_underline {
+    background-color: red;
+    margin-top: 6px;
+    width: 90px;
+    height: 4px;
+    margin-left: 50px;
+}
+.promo_img {
+    width: 100%;
+}
+.promo_name {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.promo_conr {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 50px;
+    grid-column-gap:10px ;
+
+}
+.promo_p {
+    position: relative;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 7px;
+}
+.promo_price {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: red;
+}
+.promo_discount {
+    text-decoration: line-through;
+}
+
+/* support end  */
+
+/* new arrival start */
+.arrival_item{
+    position: relative;
+    border: 1px solid rgb(200, 187, 187);
+    border-radius: 7px;
+    padding: 0px 10px;
+
+}
+.arrival_detail{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    opacity: 0;
+}
+.arrival_main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15px 100px;
+    grid-gap: 20px;
+
+}
+.arrival_img{
+    width: 100%;
+}
+.heart{
+    float: right;
+}
+.arrival_price{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.arrival_item:hover .arrival_detail{
+    opacity: 1;
+}
+.arrival_detail a{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    background-color: white;
+}
+.arrival_detail a:hover{
+    background-color: red;
+    color: white;
+}
+.arrival_item img:hover{
+    opacity: .4;
+}
+/* new arrival end */
