@@ -149,7 +149,7 @@ nav {
 /* new arrival start */
 .arrival_item{
     position: relative;
-    border: 1px solid rgb(200, 187, 187);
+    border: 2px solid rgb(200, 187, 187);
     border-radius: 7px;
     padding: 0px 10px;
 
@@ -163,8 +163,8 @@ nav {
 .arrival_main{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 15px 100px;
-    grid-gap: 20px;
+    margin: 15px 50px;
+    grid-gap: 10px;
 
 }
 .arrival_img{
