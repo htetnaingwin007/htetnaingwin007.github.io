@@ -11,6 +11,7 @@
     <script>
         let secretNumber = 7 ;
         let enterNumber = prompt("Guess Number between 1 to 20!");
+        let time = 0 ; time++ ;
 
         while (secretNumber != enterNumber) {
             if (secretNumber > enterNumber) {
@@ -19,13 +20,12 @@
                 alert("Number is Greater than secretNumber");
             }
             enterNumber = prompt ("Guess Number between 1 to 20!");
-            
-            
+            time++;
         }
-        let time = 1 ; time++ ;
-            if (secretNumber == enterNumber) {
-                document.write (`Your Number is Correct at ${time} time.`)
-            }
+        
+        if (secretNumber=enterNumber) {
+            document.write (`Bingo! Your Number is right at ${time} time.`)
+        }
         
     </script>
 </body>
