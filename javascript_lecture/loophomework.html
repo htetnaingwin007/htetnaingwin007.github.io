@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Homework</title>
+</head>
+<body>
+    <h1>Multiplication And Stars</h1>
+
+    <script>
+        let enterNumber = prompt("Enter Any Number");
+        for (let mult = 1; mult <= 12 ; mult++){
+        document.write(`<h1>This is ${mult * enterNumber}</h1>`);
+        }
+
+        for (f=0 ; f <=5 ; f++ ) {
+            for (st = 5 ; st >=f ; st--){
+                document.write(`*`);
+            }
+            document.write(`<br>`)
+        }
+
+
+    </script>
+
+</body>
+</html>
