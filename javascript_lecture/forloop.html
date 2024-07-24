@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <h1>For Loops</h1>
+
+    <script>
+        // for loop syntax
+        // for (initialization; conditions;updated){
+            // code
+        // }
+
+        document.write('<h1>Hello world</h1>');
+
+        for( let i = 1; i <= 10;i++){
+            // code 
+            document.write(`<h1> Hello world ${i} </h1>`);
+        }
+
+        let laptoplists = ['Acer','Dell','Lenovo','Hp'];
+        for (let j = 0; j < laptoplists.length; j++) {
+            document.write(`<h1> ${laptoplists[j]} </h1>`)
+            
+        }
+
+        for (let k = 1 ; k <= 12 ; k++){
+            document.write(`<h1>12 x ${k} = ${12 * k}</h1>`);
+        }
+
+        document.write('<hr>')
+        // homework your input data alli
+
+        document.write('<h1>Home work</h1>')
+
+        let enterNumber = prompt("Enter Any Number");
+        for (let mult = 1; mult <= 12 ; mult++){
+            document.write(`<h1>This is ${mult * enterNumber}</h1>`);
+            
+        }
+
+
+        document.write('<hr>')
+
+        // ;;;;;;;
+
+        for(s=0 ; s <= 5 ; s++) {
+            for(h = 0 ; h <= s; h++){
+                document.write(`*`);
+            }
+            document.write(`<br>`)
+        }
+        document.write('<hr>')
+
+        //homework 
+        // *****
+        // ****
+        // ***
+        // **
+        // *
+
+        document.write('<h1>Home work</h1>')
+        
+         
+        for (f=0 ; f <=5 ; f++ ) {
+            for (st = 5 ; st >=f ; st--){
+                document.write(`*`);
+            }
+            document.write(`<br>`)
+        }
+        
+
+
+        // while loop syntax 
+        // whiel (condition) {
+            // code 
+        // }
+
+        let num = 5 ;
+        while (num <= 10 ) {
+            document.write (`Your number is ${num}`);
+
+            // updated 
+            num++;
+        }
+
+        // do while 
+        // do {
+            // code 
+            // updated
+
+        // }while (condition);
+
+        let no = 20 ;
+        do{
+            // code 
+            document.write (`Your number is = ${no} <br>`);
+            // updated 
+            no+=5;
+        }while(no<60)
+
+
+    </script>
+</body>
+</html>
