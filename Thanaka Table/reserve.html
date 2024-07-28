@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body class="background">
+    <nav>
+        <a href="" class="logo"><h1>THANAKA TABLE</h1></a>
+
+        <ul class="nav_items">
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Reservations</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Events</a></li>
+        </ul>
+    </nav>
+    
+    <!-- nav end  -->
+
+    <!-- form start   -->
+    <div class="">
+        <img src="images/reservett.jpg" alt="" class="reservationimg">
+        <div class="formcontainer">
+            <form action="" method="post">
+                <div class="elem-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="visitor_name" placeholder="Mr or Ms" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                  <label for="email">Your E-mail</label>
+                  <input type="email" id="email" name="visitor_email" placeholder="example.@email.com" required>
+                </div>
+                <div class="elem-group">
+                  <label for="phone">Your Phone</label>
+                  <input type="tel" id="phone" name="visitor_phone" placeholder="**-********" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+                <hr>
+                <div class="elem-group inlined">
+                  <label for="adult">Adults</label>
+                  <input type="number" id="adult" name="total_adults" placeholder="" min="1" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="child">Children</label>
+                  <input type="number" id="child" name="total_children" placeholder="" min="0" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="checkin-date">Check-in Date</label>
+                  <input type="date" id="checkin-date" name="checkin" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="checkout-date">Check-out Date</label>
+                  <input type="date" id="checkout-date" name="checkout" required>
+                </div>
+                <div class="elem-group">
+                  <label for="room-selection">Select Room Preference</label>
+                  <select id="room-selection" name="room_preference" required>
+                      <option value="">Choose a Room from the List</option>
+                      <option value="connecting">Indoor</option>
+                      <option value="adjoining">Outdoor</option>
+                      <option value="adjacent">Vip</option>
+                  </select>
+                </div>
+                <hr>
+                <div class="elem-group">
+                  <label for="message">Anything Else?</label>
+                  <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                </div>
+                <button type="submit" class="dd">Book The Rooms</button>
+              </form>
+        </div>
+    </div>
+
+
+ <!-- footer start  -->
+<footer>
+    <img src="images/pexels-goumbik-349610.jpg" alt="" class="footerimg">
+    <div class="footer_list">
+        <div>
+            <ul class="foot_items">
+                <li>Our mission</li>
+                <hr class="foothr">
+                <li>To give <br> the most delicious <br> foods <br>for customers</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="foot_items">
+                <li>Our Speciality</li>
+                <hr class="foothr2">
+                <li>You can enjoy <br> high quality <br>meat and fresh vegies <br> cooked by <br>most professional chefs</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="foot_items">
+                <li>Our Restaurant</li>
+                <hr class="foothr2">
+                <li>Corner of 35th Street &, 64th St, Mandalay</li>
+                <li>81st Street, Corner of 34th Streets, <br> Chanayethazan Tsp</li>
+            </ul>
+        </div>
+        
+    </div>
+    <p class="booknow">For more exclusive events <button class="demo">Book Now</button></p>
+</footer>
+
+<script src="fonts/fontawesome-free-6.6.0-web/js/all.min.js"></script>
+</body>
+</html>
+
