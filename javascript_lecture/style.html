@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+</head>
+<body>
+    <h1>Style</h1>
+    <h2 id="myH2">Css with Javascript</h2>
+    <button onclick="clickEffect()">Click Me</button>
+    <script>
+        function clickEffect() {
+            let myH2 = document.getElementById(myH2);
+            myH2.style.color = 'red';
+            myH2.style.backgroundColor = 'green';
+            myH2.style.border = '5px solid black';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+<body>
+    <h1>Date function</h1>
+    <p id="myClock"></p>
+
+    <script>
+        let toDayDate = new Date ();
+        console.log(toDayDate);
+        console.log(toDayDate.getFullYear());
+        console.log(toDayDate.getHours());
+        console.log(toDayDate.getMonth());
+        console.log(toDayDate.getDay());
+        console.log(toDayDate.getMinutes());
+        console.log(toDayDate.getSeconds());
+        console.log(toDayDate.toLocaleString());
+        console.log(toDayDate.toLocaleTimeString());
+
+        function getSecond() {
+            let myDate = new Date();
+            let second = myDate.getSeconds();
+            document.getElementById('myClock').innerHTML = second;
+
+        }
+
+        setInterval(getSecond,1000);
+
+    </script>
+</body>
+</html>

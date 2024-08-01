@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red;text-align: center;"></h1>
+
+    <form action="" name="myForm">
+        <label for="date">Date</label>
+        <input type="date" id="date">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="price">Price</label>
+        <input type="number" name="" id="price">
+        <button type="button" onclick="showData()">Click</button>
+    </form>
+
+    <h1>Today Costs</h1>
+    <table border="1" cellpadding="30" cellspacing="1">
+        <thead>
+            <tr>
+                
+                <th>Date</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="myBody">
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td id="total1"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <script>
+
+        let foodArray = [];
+        function showData() {
+            let date = document.myForm.date.value;
+            let name = document.myForm.name.value;
+            let price =parseInt( document.myForm.price.value);
+            // console.log(showData);
+
+            let costs = {
+                costs_date : date,
+                costs_name : name,
+                costs_price : price
+            }
+
+            foodArray.push(costs);
+            // console.log(expenseArray);
+
+            getData();
+        }
+        function getData() {
+
+
+            let total = 0;
+            let html = '';
+            for (let i = 0; i < foodArray.length; i++) {
+                let foodObj = foodArray[i];
+
+                html +=  `<tr>
+                                <td>${foodObj.costs_date}</td> 
+                                <td>${foodObj.costs_name}</td>  
+                                <td>${foodObj.costs_price}</td>   
+                            </tr>`;
+
+
+                total += foodObj.costs_price;
+            }
+
+
+            
+            document.getElementById('myBody').innerHTML=html;
+            document.getElementById('total1').textContent= parseInt(total);
+        }
+    </script>
+    
+</body>
+</html>

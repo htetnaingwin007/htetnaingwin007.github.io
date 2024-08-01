@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property and Method</title>
+</head>
+<body>
+    <h1>Property and Method</h1>
+
+    <p id="creTextNode"></p>
+    <p id="createSetAt">This is Set Attribute</p>
+    <p id="createGetAt" style="color: green;">This is Get Attribute</p>
+    <p id="Colorchange" style="color: red;">Red color</p>
+    <button onclick="crettNode()">Create Text</button>
+    <button onclick="creteleNode()">Create Element</button>
+    <button onclick="creteSetAttr()">Create set Attribute</button>
+    <button onclick="creteGetAttr()">Create Get Attribute</button>
+    <button onclick="changColor()">Color Change</button>
+    <script>
+        function crettNode() {
+            let creTextNode = document.getElementById('creTextNode');
+            // creTextNode.innerHTML = 'Create text node';
+            let createText = document.createTextNode('Create text node');
+            creTextNode.appendChild(createText);
+        }
+
+        function creteleNode() {
+            let h3 = document.createElement('h3');
+            h3.innerHTML = ('Create Element Node');
+            document.body.appendChild(h3);
+
+            
+        }
+        function creteSetAttr() {
+            let setAttr = document.getElementById('createSetAt');
+            createSetAt.setAttribute('style','color:red;',)
+        }
+
+        function creteGetAttr() {
+            let setAttr = document.getElementById('createGetAt');
+            console.log(createGetAt.getAttribute('style'));
+        }
+
+        function changColor() {
+            let color = document.getElementById('Colorchange');
+            let changColor = color.getAttribute('style');
+            if (changColor== "color:red;") {
+                color.removeAttribute('style');
+                color.setAttribute('style','color:green;');
+            }else {
+                color.removeAttribute('style');
+                color.setAttribute('style','color:red;');
+            }
+            
+            
+        }
+    </script>
+</body>
+</html>
