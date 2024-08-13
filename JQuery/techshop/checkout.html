@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="" class="name"><h2>IT Shop</h2></a>
+            <ul class="nav-ul">
+                <li><a href="" class="home">Home</a></li>
+                <li class="li1">
+                    <a href="index.html" class="cart_nav_item"><i class="fa-solid fa-cart-shopping  fa-lg"></i></a>
+                    <span class="cart_noti">0</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <table cellspacing="0" cellpadding="50" border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+                <th>Qty</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td id="total"></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+    
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            itemsGetString = localStorage.getItem('shops');
+            console.log(itemsGetString);
+            if (itemsGetString) {
+                itemsGetArray = JSON.parse(itemsGetString);
+                console.log(itemsGetArray);
+                
+                let data = '';
+                    let j = 1 ;
+                    total=0;
+                    $.each(itemsGetArray,function(i,v){
+                        // console.log("This is key"+i);
+                        // console.log(v.stu_name);
+                        subtotal=v.qty * v.price;
+                        
+                        data += `<tr>
+                                <td>${j++}</td>
+                                <td>${v.name}</td>
+                                <td>${v.price}</td>
+                                <td>${v.qty}</td>
+                                <td>${subtotal}</td>   
+                            </tr>`
+                            
+                        
+                        total+=subtotal;
+                        // console.log(total);
+                        
+                       $('#total').html(total);
+                            
+                    })
+
+                    $('#body').html(data);
+                    
+
+            }
+        })
+        
+        
+        
+    </script>
+</body>
+</html>
