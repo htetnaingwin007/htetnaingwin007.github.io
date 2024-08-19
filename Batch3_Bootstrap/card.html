@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <h1 class="text-center text-danger my-5">Card</h1>
+    
+    <div class="card m-5">
+        <div class="card-header">
+            <h1 class="card-title">This is Card Header</h1>
+        </div>
+        <div class="card-body">
+            <h1 class="card-text">This is Card body</h1>
+        </div>
+        <div class="card-footer">
+            <button>This is card Footer</button>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row row-cols-xs-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-5">
+            <div class="col"> 
+                <div class="card">
+                    <img src="rr2.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>Title</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dapie jdie imeifi....</p>
+                        <button class="btn btn-success float-end" data-bs-target="#MyModal" data-bs-toggle="modal">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card">
+                    <img src="rr2.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>Title</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dapie jdie imeifi....</p>
+                        <button class="btn btn-success float-end">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card">
+                    <img src="rr2.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>Title</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dapie jdie imeifi....</p>
+                        <button class="btn btn-success float-end">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card">
+                    <img src="rr2.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>Title</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dapie jdie imeifi....</p>
+                        <button class="btn btn-success float-end">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card">
+                    <img src="rr2.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>Title</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dapie jdie imeifi....</p>
+                        <button class="btn btn-success float-end">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
+
+<div class="modal fade" id="MyModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>this is modal header</h3>
+                <button data-bs-dismiss="modal" class="btn-close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- <h3>this is modal body</h3> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="rr3.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <h3>Product Title</h3>
+                            <p>Price:500000</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsa amet sunt repellendus asperiores, nesciunt ratione placeat aspernatur saepe esse ducimus quo voluptatem provident exercitationem sint facere omnis tenetur molestias?</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn-success btn">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
