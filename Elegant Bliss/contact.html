@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="images/flowers.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- home,venues,planning,seervice,latest wedding,testimonial,contact -->
+    <!-- nav start -->
+    <nav class="navbar shadow-sm bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <ul class="nav-straight d-none d-md-block">
+                <li class="me-3 mt-2"><a href="www.instagram.com" class="text-secondary link-pink"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.facebook.com" class="text-secondary link-pink"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.pinterest.com" class="text-secondary link-pink"><i class="fa-brands fa-pinterest-p fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.youtube.com" class="text-secondary link-pink"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+            </ul>
+
+            <a href="#" class="navbar-brand sign mt-2 link-pink"><h3 class="sign">Elegant Bliss</h3></a>
+
+            <ul class="nav-straight mt-2">
+                <li class="me-md-1">
+                    <button class="btn link-pink" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <span class="text-secondary"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title ms-2" id="offcanvasTopLabel">Find the artist or organization you are interested in</h5>
+                            <button type="button me-auto" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body mt-5 text-pink1">
+                            <input type="search" class="form-control border-0 border-bottom rounded-0 bg-transparent w-75 border-dark" id="search" placeholder="Search">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="me-md-3 mt-2 dropstart">
+                    <a href="" class="text-secondary link-pink" type="button" data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-globe fa-lg"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Française</a></li>
+                        <li><a class="dropdown-item" href="#">Swiss-France</a></li>
+                        <li><a class="dropdown-item" href="#">中文</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="me-md-2"><a href="" class="text-pink1 link-pink"><i class="fa-regular fa-circle-user fa-lg"></i></a></li>
+                <li class="me-md-3">
+                    <button class="btn pb-2 link-pink" type="button"
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#navbarOffcanvas"
+                    aria-controls="navbarOffcanvas"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-pink1"><i class="fa-solid fa-bars fa-lg"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-pink" id="navbarOffcanvas"
+                  tabindex="-1" aria-labelledby="offcanvasNavbarLabel" data-bs-scroll="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-pink1" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">          
+                        <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <a class="nav-item nav-link active text-pink1" aria-current="page" href="#">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                            <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                            <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                            <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                            <span>
+                                <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                                <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                                <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                
+                            </span>
+                            
+
+
+                        </div>
+                    </div>
+                </div>  
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- nav end  -->
+    
+
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Contact us</h1>
+        <div class="line me-md-5 me-1"></div>
+
+    </div>
+
+        <div class="mt-5">
+        <form class="row g-3 justify-content-center bg-opacity-10 bg-danger">
+            <div class="col-md-5">
+              <label for="inputEmail4" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-5">
+                <label for="inputEmail4" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+            <div class="col-md-5">
+              <label for="inputPassword4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-5">
+              <label for="inputAddress" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Countries</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Myanmar +97</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+            
+            <div class="col-md-7">
+              <label for="inputCity1" class="form-label">PHONE</label>
+              <input type="number" class="form-control" id="inputCity1">
+            </div>
+            <div class="col-md-10">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Weddings</option>
+                  <option value="1">Parties</option>
+                  <option value="2">Others</option>
+                  
+                </select>
+              </div>
+            
+            <div class="col-md-5">
+                <label for="inputPassword66" class="form-label">Preferred Date</label>
+                <input type="date" class="form-control" id="inputPassword66">
+            </div>
+            <div class="col-md-5">
+              <label for="inputZip" class="form-label">Number of Guests</label>
+              <input type="number" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-10">
+                <p>Event destination</p>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="form-check">
+                   
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Paris / Ile-de-France
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="form-check">
+                    <!-- <p>Event destination</p> -->
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Paris / Ile-de-France
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="form-check">
+                    <!-- <p>Event destination</p> -->
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Paris / Normandy
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="form-check">
+                    <!-- <p>Event destination</p> -->
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Paris / Provence / French Riviera
+                  </label>
+                </div>
+              </div>
+
+              
+            
+
+              <div class="col-md-10">
+                <label for="inputEmail44" class="form-label">Other destination considered</label>
+                <input type="text" class="form-control" id="inputEmail44">
+              </div>
+              <div class="col-md-10">
+                <p>Event destination</p>
+            </div>
+              <div class="col-md-5">
+                <div class="form-check">
+                   
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Prestige: Full organization
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="form-check">
+                    <!-- <p>Event destination</p> -->
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                    Juste Nous Deux: Elopement
+                  </label>
+                </div>
+              </div>
+
+              
+              <div class="col-md-10">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Veuillez choisir une option</option>
+                  <option><20000$</option>
+                  <option>>50000$</option>
+
+                  
+                </select>
+              </div>
+              <div class="mb-3 col-md-10">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              
+            
+            <div class="col-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    By submitting this form, I consent to the collection and processing of my personal data in accordance with the current privacy policy, and I agree that my information will be used for the specific purpose of contacting me.
+                </label>
+              </div>
+            </div>
+            <div class="col-10 mb-5">
+                <div class="d-grid gap-2">
+                    <button class="btn btn border-danger-subtle rounded-0 bg-pink text-pink1" type="button">SEND US MESSAGE</button>
+                    
+                  </div>
+              
+            </div>
+          </form>
+    </div>
+
+
+
+    <div class="container-fluid p-5 border dorder-black">
+        <div class="row row-cols-lg-3 row-cols-1">
+            <div class="col">
+                <h1 class="sign">Elegant Bliss</h1>
+                <p class="text-secondary">
+                    The Wedding Planners Monaco, South of France & Italy. We produce, organise and design your luxury wedding and private event. Discover all venues to get married.
+                </p>
+
+            </div>
+            <div class="col">
+                <h3 class="text-secondary eliot">Contact Us</h3>
+                <p class="text-secondary">contact@TheWeddingPlannersMonaco.com<br>
+                    +33 6 64 97 55 27<br>
+                    <span class="">The Wedding Planners
+                        Elegant Bliss office</span><br>
+                    Résidence le Monte-Carlo Sun, 74 boulevard d'Italie
+                    98000 France</p>
+            </div>
+            <div class="col">
+                <div class="row row-cols-2 justify-content-center">
+                    <div class="col-12"><h3 class="text-secondary eliot">Quicklinks</h3></div>
+                    <div class="col">
+                        
+                        <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                        <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                        <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                        <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                        <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                        <span>
+                            <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                            <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <div>
+        <p class="text-center m-5">htetnaingwin007.github.io©All right reserved.</p>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+</html>

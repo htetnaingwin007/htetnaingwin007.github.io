@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="images/flowers.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- home,venues,planning,seervice,latest wedding,testimonial,contact -->
+    <!-- nav start -->
+    <nav class="navbar shadow-sm bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <ul class="nav-straight d-none d-md-block">
+                <li class="me-3 mt-2"><a href="www.instagram.com" class="text-secondary link-pink"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.facebook.com" class="text-secondary link-pink"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.pinterest.com" class="text-secondary link-pink"><i class="fa-brands fa-pinterest-p fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.youtube.com" class="text-secondary link-pink"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+            </ul>
+
+            <a href="#" class="navbar-brand sign mt-2 link-pink"><h3 class="sign">Elegant Bliss</h3></a>
+
+            <ul class="nav-straight mt-2">
+                <li class="me-md-1">
+                    <button class="btn link-pink" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <span class="text-secondary"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title ms-2" id="offcanvasTopLabel">Find the artist or organization you are interested in</h5>
+                            <button type="button me-auto" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body mt-5 text-pink1">
+                            <input type="search" class="form-control border-0 border-bottom rounded-0 bg-transparent w-75 border-dark" id="search" placeholder="Search">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="me-md-3 mt-2 dropstart">
+                    <a href="" class="text-secondary link-pink" type="button" data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-globe fa-lg"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Française</a></li>
+                        <li><a class="dropdown-item" href="#">Swiss-France</a></li>
+                        <li><a class="dropdown-item" href="#">中文</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="me-md-2"><a href="" class="text-pink1 link-pink"><i class="fa-regular fa-circle-user fa-lg"></i></a></li>
+                <li class="me-md-3">
+                    <button class="btn pb-2 link-pink" type="button"
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#navbarOffcanvas"
+                    aria-controls="navbarOffcanvas"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-pink1"><i class="fa-solid fa-bars fa-lg"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-pink" id="navbarOffcanvas"
+                  tabindex="-1" aria-labelledby="offcanvasNavbarLabel" data-bs-scroll="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-pink1" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">          
+                        <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <a class="nav-item nav-link active text-pink1" aria-current="page" href="#">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                            <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                            <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                            <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                            <span>
+                                <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                                <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                                <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                
+                            </span>
+                            
+
+
+                        </div>
+                    </div>
+                </div>  
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- nav end  -->
+    <!-- banner start  -->
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner4.jpg" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner5.jpg" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.png" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner6.png" class="d-block w-100" alt="...">
+
+          </div>
+        </div>
+        <hr class="line-through">
+        
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators location-custom mt-2">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        
+    </div>
+    <!-- carousel end  -->
+
+    <!-- rest start  -->
+    <p class="text-center text-pink1 mt-5">WEDDING PLANNER SINCE 2006</p>
+    <h1 class="text-center eliot display-6 mt-4 text-secondary mb-5">Organizer of exceptional weddings in France</h1>
+      
+    <!-- rest end  -->
+    <!-- start service  -->
+    <div class="container-fluid bg-pink mt-5">
+        <div class="row justify-content-center p-5">
+            <div class="col-md-6 col-12">
+                <h4 class="text-pink1 ps-md-5">OUR SERVICES</h4>
+                <H1 class="display-2 eliot text-secondary ps-md-5">The Luxury<br>
+                    Of Choices</H1>
+            </div>
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <p class="h4 font-thin text-secondary">We will organise and design your wedding and private events, from small gatherings to large scale events in the South of France, and in the Principality of Monaco, and the iconic venues of Italy.</p>
+                <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 mt-4 pe-4 ps-3 btn-lg text-pink1" href="venues.html" role="button">DISCOVER</a>
+            </div>
+        </div>
+    </div>
+    <!-- service end  -->
+    <!-- venue start home  -->
+    <h3 class="text-center text-pink1 mt-5 mb-custom">VENUES</h3>
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Prestigious Sites</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+
+
+    <!-- ---====0000 -->
+    <div class="wrapper d-md-none">
+        <div class="photobanner1">
+
+      <img src="images/villa1.webp" alt="" />
+      <img src="images/villa5.webp" alt="" />
+      <img src="images/villa4.webp" alt="" />
+      <img src="images/slider2.webp" alt="" />
+      <img src="images/villa6.webp" alt="" />
+      <img src="images/slider3.webp" alt="" />
+      <img src="images/villa8.webp" alt="" />
+      <img src="images/slidere4.webp" alt="" />
+    </div>
+    </div>
+
+    <div class="wrapper my-5 d-none d-md-block">
+        <div class="photobanner">
+
+      <!-- <img src="images/villa1.webp" alt="" />
+      <img src="images/villa2.webp" alt="" />
+      <img src="images/slider1.webp" alt="" />
+      <img src="images/villa5.webp" alt="" />
+      <img src="images/villa6.webp" alt="" />
+      <img src="images/villa1.webp" alt="" />
+      <img src="images/villa8.webp" alt="" />
+      <img src="images/villa7.webp" alt="" /> -->
+      <img src="images/villa1.webp" alt="" />
+      <img src="images/villa5.webp" alt="" />
+      <img src="images/villa4.webp" alt="" />
+      <img src="images/slider2.webp" alt="" />
+      <img src="images/villa6.webp" alt="" />
+      <img src="images/slider3.webp" alt="" />
+      <img src="images/villa8.webp" alt="" />
+      <img src="images/slidere4.webp" alt="" />
+    </div>
+    </div>
+    
+    <p class="text-secondary d-md-none mb-2 mx-4 px-3">
+        With over twenty years of collective experience in planning weddings located anywhere between Monaco and Saint-Tropez, from lake of Como to the Amalfi coast in Italy, The Wedding Planners Monaco have decided to take wedding planning to another level.
+        <br>
+        We can organize the wedding of your dreams in any venue on the French Riviera and Italy: in a medieval French chateau, a luxurious hotel ballroom, a legendary villa in Italy, outdoors al fresco, on a super yacht, a charming beach location lit up with fairy lights or even in your own villa!
+
+
+    </p>
+    <p class="text-secondary margincustom mb-5 d-none d-md-block">
+        With over twenty years of collective experience in planning weddings located anywhere between Monaco and Saint-Tropez, from lake of Como to the Amalfi coast in Italy, The Wedding Planners Monaco have decided to take wedding planning to another level.
+        <br>
+        We can organize the wedding of your dreams in any venue on the French Riviera and Italy: in a medieval French chateau, a luxurious hotel ballroom, a legendary villa in Italy, outdoors al fresco, on a super yacht, a charming beach location lit up with fairy lights or even in your own villa!
+
+
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-md-center">
+                <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 mt-4 pe-4 ps-3 btn-lg text-pink1" href="venues.html" role="button">FRENCH RIVIERA VENUES</a>
+            </div>
+            <div class="col-12 col-md-6 text-md-center">
+                <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 mt-4 pe-4 ps-3 btn-lg text-pink1" href="venues.html" role="button">ITALY VENUES</a>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-offer">
+    <h3 class="text-pink1 text-center">SEE THE LATEST</h3>
+    <h1 class="text-secondary display-4 eliot text-center">Special Offers</h1>
+    <div class="container my-5">
+        <div class="row row-cols-md-5 justify-content-center row-cols-2">
+            <div class="col">
+                <div class="text-center">
+                    <a href="" class="text-decoration-none">
+                        <img src="images/villa item1.jpg" class="round image1 img-fluid rounded-1 shadow"/>
+                        <div class="text-pink1 hover-secondary1 mt-2">
+                            <span class="fs-5 comor fw-bold">Le Château Charmant </span>
+                        </div>
+                        
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <a href="" class="text-decoration-none">
+                        <img src="images/villa item2.jpg" class="round image1 img-fluid rounded-1 shadow"/>
+                        <div class="text-pink1 hover-secondary1 mt-2">
+                            <span class="fs-5 comor fw-bold">La Maison dans les vignes</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <a href="" class="text-decoration-none">
+                        <img src="images/villa item3.jpg" class="round image1 img-fluid rounded-1 shadow"/>
+                        <div class="text-pink1 hover-secondary1 mt-2">
+                            <span class="fs-5 comor fw-bold">The Exquisite Chateau</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <a href="" class="text-decoration-none">
+                        <img src="images/villa item4.jpg" class="round image1 img-fluid rounded-1 shadow"/>
+                        <div class="text-pink1 hover-secondary1 mt-2">
+                            <span class="fs-5 comor fw-bold">The Grand Château </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- venues end home  -->
+    <!-- about us  -->
+    <div class="container-fluid bg-pink">
+        <div class="row">
+            <div class="col-12 col-lg-8 mt-lg-5">
+                <h4 class="ms-5 text-pink1 mb-3 mt-5 mt-lg-0">ABOUT US</h4>
+                <h1 class="ms-5 eliot text-secondary display-2 lh-1 mb-5">Experience
+                    <br>
+                    and Vision
+                </h1>
+                <p class="ms-5">
+                    Founded in 2015, The Wedding Planners Monaco <br> combines expertise and a uniquvision of glamour.
+                </p>
+                <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 mt-2 pe-4 ps-btn-lg text-pink1 ms-5" href="aboutus.html" role="button">DISCOVER</a>
+                <div class="text-end me-5">
+                    <img src="images/signature.webp" alt="" width="" class="signature-size">
+                </div>
+                        <p class="text-end me-5">
+                    Founder & Creative director of  <span class="sign text-pink1 mx-2">The Wedding Planners
+                        Elegant Bliss</span><br>
+                    Designing & planning weddings & events in Monaco,
+                     South of France and Italy
+                    
+                </p>
+                        
+                <div class="row text-center justify-content-end me-5 mb-5">
+                    <div class="col-sm-2 col-3 col-md-1">
+                        <a href=""><img src="images/logo1.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 col-md-1">
+                        <a href=""><img src="images/logo2.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 col-md-1">
+                        <a href=""><img src="images/logo3.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 col-md-1">
+                        <a href=""><img src="images/logo4.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 mt-3 mt-sm-0 col-md-1">
+                        <a href=""><img src="images/logo5.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 mt-3 mt-sm-0 col-md-1">
+                        <a href=""><img src="images/logo6.webp" alt="" class="logo-size"></a>
+                    </div>
+                    <div class="col-sm-2 col-3 mt-3 mt-md-0 col-md-1">
+                        <a href=""><img src="images/logo7.webp" alt="" class="logo-size"></a>
+                    </div>
+
+                </div>
+                        
+            </div>
+            <div class="col pe-md-0 col-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 mt-4 mt-lg-0">
+                <img src="images/woman-1.webp" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- about us done home  -->
+
+    <!-- latest wedding memoriable moment start    -->
+    <h3 class="text-center text-pink1 mt-5 mb-custom">LATEST WEDDINGS</h3>
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Memorable Moments</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+
+    <!-- ;;;;;;; -->
+    <!-- <div id="slider-container1" class="slider1">
+        
+	    <div class="slide1">
+			<img src="images/wedding momont/moment1.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment2.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment1.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment2.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment1.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment2.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment1.webp" alt="">
+	    </div>
+        <div class="slide1">
+			<img src="images/wedding momont/moment2.webp" alt="">
+	    </div>
+        <div onclick="prev()" class="control-prev-btn1">
+		    <i class="fa-solid fa-arrow-left"></i>
+	    </div>
+	    <div onclick="next()" class="control-next-btn1">
+	    	<i class="fa-solid fa-arrow-right"></i>
+	    </div>
+	    
+    </div>
+
+
+    <div class="overlay1"></div> -->
+    <!-- <div onclick="prev()" class="control-prev-btn1">
+        <i class="fa-solid fa-arrow-left"></i>
+    </div>
+    <div onclick="next()" class="control-next-btn1">
+        <i class="fa-solid fa-arrow-right"></i>
+    </div> -->
+    <div class="d-none d-md-block">
+        <div id="slider-container" class="slider">
+            <div class="slide">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+    
+            <div onclick="prev()" class="control-prev-btn">
+                 <i class="fas fa-arrow-left"></i>
+            </div>
+            <div onclick="next()" class="control-next-btn">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-none">
+        <div id="slider1-container" class="slider1"> 
+            <div class="slide1">
+                    <img src="images/wedding momont/moment1.webp" alt="" class="img-fluid">
+            </div>
+            <div class="slide1">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide1">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide1">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide1">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide1">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide1">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide1">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+            <div class="slide1">
+                    <img src="images/wedding momont/moment1.webp" alt="">
+            </div>
+            <div class="slide1">
+                <img src="images/wedding momont/moment2.webp" alt="">
+            </div>
+    
+            <div onclick="prev()" class="control-prev-btn">
+                 <i class="fas fa-arrow-left"></i>
+            </div>
+            <div onclick="next()" class="control-next-btn">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="overlay"></div>
+
+    <div class="text-center"><a class="btn rounded-0 border-top-0 border-end-0 border-pink1 mt-4 pe-4 ps-3 btn-lg text-pink1" href="lattstwedding.html" role="button">LATEST WEDDINGS</a></div>
+
+    <!-- latest weddings end  -->
+    <div class="bg-pink p-5 my-5">
+        <p class="text-center">
+            <span class="text-pink1 display-4 playwrite">What is done in love is done well</span>
+            
+            <br>
+            
+            
+        </p>
+        <p class="text-end fw-bold text-secondary">- Vincent Van Gogh -</p>
+        
+        
+    </div>
+    <!-- feedback  -->
+    <h3 class="text-center text-pink1 mt-5 mb-custom">RECOMMENDATION</h3>
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Testimonials</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+    
+
+    <div class="p-5 bg-pink mt-3">
+        <div class="card mb-3 border-0" style="max-width: 1200px;">
+            <div class="row g-0 ">
+              <div class="col-md-5">
+                <img src="images/testimonial/feed1.jpg" class="img-fluid" alt="...">
+                
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-pink1"><i class="fa-solid fa-quote-right fa-2xl"></i></h5>
+                  <p class="card-text text-secondary">We cannot thank the Flovinno team enough for making our dream wedding a reality. A special shoutout goes to Juliette, who truly went above and beyond in ensuring that everything was perfect for our special day. From meticulously planning every detail to holding meetings with all our vendors, she made the process incredibly smooth. Not only did she become the main point of contact for all vendors, but she was also consistently available to address our queries and concerns, regardless of the time.<br><br>
+
+                    What truly stood out was Juliette’s ability to think out of the box and her proactiveness in handling last-minute challenges. We were particularly impressed when she managed to find a shuttle company for our guests with such short notice. The seamless coordination on the day of our wedding was the cherry on top, making sure that we, as a couple, could truly savor and enjoy every moment.<br><br>
+                    
+                    To all future brides and grooms, if you’re seeking a wedding planning company that not only meets but exceeds expectations, look no further than Flovinno. We couldn’t have been happier with their services and wholeheartedly recommend them for your big day!</p>
+                  <p class="card-text fw-bold text-decoration-underline"><small class="text-body-secondary">Gulnoza & Romain </small></p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mb-2">
+                <a class="btn border-0 text-pink1 text-uppercase" href="testimonial.html" role="button">Read all testimonials<i class="fa-solid fa-arrow-right mx-2"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- testimonial end  -->
+
+    <!-- contact start  -->
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Contact us</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+    <div class="m-5">
+        <form class="row g-3 justify-content-center">
+            <div class="col-md-5">
+              <label for="inputEmail4" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-5">
+                <label for="inputEmail4" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+            <div class="col-md-5">
+              <label for="inputPassword4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-5">
+              <label for="inputAddress" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Countries</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Myanmar +97</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+            
+            <div class="col-md-7">
+              <label for="inputCity1" class="form-label">PHONE</label>
+              <input type="number" class="form-control" id="inputCity1">
+            </div>
+            <div class="col-md-10">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Weddings</option>
+                  <option value="1">Parties</option>
+                  <option value="2">Others</option>
+                  
+                </select>
+              </div>
+            
+            <div class="col-md-5">
+                <label for="inputPassword66" class="form-label">Preferred Date</label>
+                <input type="date" class="form-control" id="inputPassword66">
+            </div>
+            <div class="col-md-5">
+              <label for="inputZip" class="form-label">Number of Guests</label>
+              <input type="number" class="form-control" id="inputZip">
+            </div>
+            <div class="col-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    By submitting this form, I consent to the collection and processing of my personal data in accordance with the current privacy policy, and I agree that my information will be used for the specific purpose of contacting me.
+                </label>
+              </div>
+            </div>
+            <div class="col-10">
+                <div class="d-grid gap-2">
+                    <button class="btn btn border-danger-subtle rounded-0 bg-pink text-pink1" type="button">SEND US MESSAGE</button>
+                    
+                  </div>
+              
+            </div>
+          </form>
+    </div>
+    <!-- contact end  -->
+    <!-- social media  -->
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Instagram</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Wedding Photo Inspiration (@weddingphotoinspiration)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Melbourne Wedding Photographer (@katie_harmsworth)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>    
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Wedding Photo Inspiration (@weddingphotoinspiration)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>  
+        </div>
+    </div>
+    <p class="text-center text-pink1 shadow-lg bg-pink">YOU CAN FOLLOW US ON SOCIAL MEDIA FOR UPDATE NEWS AND CONCEPT<span>
+        <a href="www.instagram.com" class="d-inline ms-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+        <a href="www.facebook.com" class="d-inline ms-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+        <a href="www.pinterest.com" class="d-inline ms-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+        <a href="www.youtube.com" class="d-inline ms-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+        
+    </span></p>
+    
+    <!-- end social  -->
+    <!-- footer start  -->
+
+    <div class="container-fluid p-5 border dorder-black">
+        <div class="row row-cols-lg-3 row-cols-1">
+            <div class="col">
+                <h1 class="sign">Elegant Bliss</h1>
+                <p class="text-secondary">
+                    The Wedding Planners Monaco, South of France & Italy. We produce, organise and design your luxury wedding and private event. Discover all venues to get married.
+                </p>
+
+            </div>
+            <div class="col">
+                <h3 class="text-secondary eliot">Contact Us</h3>
+                <p class="text-secondary">contact@TheWeddingPlannersMonaco.com<br>
+                    +33 6 64 97 55 27<br>
+                    <span class="">The Wedding Planners
+                        Elegant Bliss office</span><br>
+                    Résidence le Monte-Carlo Sun, 74 boulevard d'Italie
+                    98000 France</p>
+            </div>
+            <div class="col">
+                <div class="row row-cols-2 justify-content-center">
+                    <div class="col-12"><h3 class="text-secondary eliot">Quicklinks</h3></div>
+                    <div class="col">
+                        
+                        <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                        <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                        <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                        <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                        <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                        <span>
+                            <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                            <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <div>
+        <p class="text-center m-5">htetnaingwin007.github.io©All right reserved.</p>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+</html>

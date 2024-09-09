@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="images/flowers.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- home,venues,planning,seervice,latest wedding,testimonial,contact -->
+    <!-- nav start -->
+    <nav class="navbar shadow-sm bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <ul class="nav-straight d-none d-md-block">
+                <li class="me-3 mt-2"><a href="www.instagram.com" class="text-secondary link-pink"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.facebook.com" class="text-secondary link-pink"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.pinterest.com" class="text-secondary link-pink"><i class="fa-brands fa-pinterest-p fa-lg"></i></a></li>
+                <li class="me-3 mt-2"><a href="www.youtube.com" class="text-secondary link-pink"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+            </ul>
+
+            <a href="#" class="navbar-brand sign mt-2 link-pink"><h3 class="sign">Elegant Bliss</h3></a>
+
+            <ul class="nav-straight mt-2">
+                <li class="me-md-1">
+                    <button class="btn link-pink" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <span class="text-secondary"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title ms-2" id="offcanvasTopLabel">Find the artist or organization you are interested in</h5>
+                            <button type="button me-auto" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body mt-5 text-pink1">
+                            <input type="search" class="form-control border-0 border-bottom rounded-0 bg-transparent w-75 border-dark" id="search" placeholder="Search">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="me-md-3 mt-2 dropstart">
+                    <a href="" class="text-secondary link-pink" type="button" data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-globe fa-lg"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Française</a></li>
+                        <li><a class="dropdown-item" href="#">Swiss-France</a></li>
+                        <li><a class="dropdown-item" href="#">中文</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="me-md-2"><a href="" class="text-pink1 link-pink"><i class="fa-regular fa-circle-user fa-lg"></i></a></li>
+                <li class="me-md-3">
+                    <button class="btn pb-2 link-pink" type="button"
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#navbarOffcanvas"
+                    aria-controls="navbarOffcanvas"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-pink1"><i class="fa-solid fa-bars fa-lg"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-pink" id="navbarOffcanvas"
+                  tabindex="-1" aria-labelledby="offcanvasNavbarLabel" data-bs-scroll="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-pink1" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">          
+                        <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <a class="nav-item nav-link active text-pink1" aria-current="page" href="#">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                            <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                            <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                            <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                            <span>
+                                <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                                <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                                <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                
+                            </span>
+                            
+
+
+                        </div>
+                    </div>
+                </div>  
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- nav end  -->
+    <div class="">
+        <img src="images/servicees/latest.webp" alt="" class="img-fluid">
+        <div class="container position-absolute top-50 start-50 translate-middle shadow mt-5  bg-opacity-50">
+            <h3 class="text-center display-3 eliot text-secondary">Latest Weddings in Monaco, South of France & Italy</h3>
+    
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-8">
+                <h1 class="eliot display-3 text-md-end text-center ">Events, News and More</h1>
+                <p class="text-md-end text-center">French (F), Italy (I) and Switzerland (S)</p>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="text-md-end text-center mt-md-2 ">
+                    <p class="text-secondary me-md-3">
+                        Show by Category</p>
+                    <a href="" class="btn rounded-0 border bg-pink"><h4 class="d-inline-block text-secondary p-1">F</h4></a>
+                    <a href="" class="btn rounded-0 border bg-pink"><h4 class="d-inline-block text-secondary p-1">I</h4></a>
+                    <a href="" class="btn rounded-0 border bg-pink"><h4 class="d-inline-block text-secondary p-1">S</h4></a>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row row-cols-md-3 row-cols-2">
+            <div class="col mb-3">
+                <div class="overflow-hidden">
+                    <img src="images/servicees/latest weddingtest.webp" alt="" class="img-fluid image1">
+                    <p class="mt-3">
+                        Dolce Vita Brunch at Chateau Saint-Jeannet – French Riviera (S & A’s wedding)
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                    </p>
+                        
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed1.webp" alt="" class="img-fluid image1">
+                    <p class="">
+                        Wedding at Chateau Saint-Jeannet – French Riviera (S&A’s wedding)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed2.webp" alt="" class="img-fluid image1">
+                    <p>
+                        Wedding Anniversary at Circé Beaulieu sur mer – French Riviera (W & W’s wedding)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed3.webp" alt="" class="img-fluid">
+                    <p>
+                        Dolce Vita Brunch at Chateau Saint-Jeannet – French Riviera (S & A’s wedding)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed4.webp" alt="" class="img-fluid image1">
+                    <p>
+                        Saudi wedding at Villa Ephrussi de Rothschild – French Riviera (J & Y’s wedding)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed5.webp" alt="" class="img-fluid">
+                    <p>
+                        Elopement Grand Hotel du Cap Four Seasons- Saint-Jean-Cap-Ferrat (J&C)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed7.webp" alt="" class="img-fluid">
+                    <p>
+                        Romantic wedding at Villa Ephrussi de Rothschild – French Riviera (Julie & Mike’s wedding)</p>
+                        <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="overflow-hidden">
+                    <img src="images/tag1/wed6.webp" alt="" class="img-fluid">
+                    <p>
+                        Intimate Fall wedding at Villa Ephrussi de Rothschild, south of France (N & C’s wedding)
+</p>                <a class="btn rounded-0 border-top-0 border-end-0 border-pink1 pe-2  mb-3  mb-3 ps-1 mt-2 text-pink1 float-end" href="#" role="button">Go to gallery</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator mt-5">
+        <div class="line ms-md-5 ms-5"></div>
+            <h1 class="text-secondary eliot display-3">Memorable Moments</h1>
+        <div class="line me-md-5 me-5"></div>
+    </div>
+    <h3 class="text-center text-pink1 comor font-thin text-uppercase">on the French Riviera and in Italy</h3>
+    
+    <p class="text-secondary font-monospace text-center m-5">
+        The Wedding Planners Monaco, South of France & Italy. We produce, organise and design your luxury wedding and private event. Discover all venues to get married.
+        <br><br>Our contribution to the success of all these weddings is our pride. We design and organize prestigious and glamourous weddings in dream wedding venues thanks to our long experience, expertise and hard work. We will provide you with the best wedding services and exclusive access to prestigious wedding venues in Italy and on the French Riviera. See for yourself and get a glimpse of the type of weddings we have already organized. We truly hope it will give you some inspiration for your own destination wedding on the French Riviera or in Italy.
+        <br><br>Feel free to contact us and tell us what you want, and we will make your destination wedding on the French Riviera and in Italy a reality.
+
+
+
+    </p>
+
+
+    <div class="separator">
+        <div class="line ms-md-5 ms-1"></div>
+            <h1 class="text-secondary eliot display-3">Instagram</h1>
+        <div class="line me-md-5 me-1"></div>
+    </div>
+
+
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CyVYwjIu2SC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Wedding Photo Inspiration (@weddingphotoinspiration)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CjpkXA_rvH1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Melbourne Wedding Photographer (@katie_harmsworth)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>    
+            <div class="col-lg-4 item">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CtsYdSvsb5Z/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Wedding Photo Inspiration (@weddingphotoinspiration)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+            </div>  
+        </div>
+    </div>
+    <!-- footer start  -->
+
+    <div class="container-fluid p-5 border dorder-black">
+        <div class="row row-cols-lg-3 row-cols-1">
+            <div class="col">
+                <h1 class="sign">Elegant Bliss</h1>
+                <p class="text-secondary">
+                    The Wedding Planners Monaco, South of France & Italy. We produce, organise and design your luxury wedding and private event. Discover all venues to get married.
+                </p>
+
+            </div>
+            <div class="col">
+                <h3 class="text-secondary eliot">Contact Us</h3>
+                <p class="text-secondary">contact@TheWeddingPlannersMonaco.com<br>
+                    +33 6 64 97 55 27<br>
+                    <span class="">The Wedding Planners
+                        Elegant Bliss office</span><br>
+                    Résidence le Monte-Carlo Sun, 74 boulevard d'Italie
+                    98000 France</p>
+            </div>
+            <div class="col">
+                <div class="row row-cols-2 justify-content-center">
+                    <div class="col-12"><h3 class="text-secondary eliot">Quicklinks</h3></div>
+                    <div class="col">
+                        
+                        <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-item nav-link text-pink1" href="aboutus.html">About Us</a>
+                            <!-- <a class="nav-item nav-link text-pink1" href="#">About You</a> -->
+                            <a class="nav-item nav-link text-pink1" href="venues.html">Venues</a>
+                            <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-item nav-link text-pink1" href="services.html">Services</a>
+                        <a class="nav-item nav-link text-pink1" href="lattstwedding.html">Latest Wedding</a>
+                        <a class="nav-item nav-link text-pink1" href="testimonial.html">Testimonial</a>
+                        <!-- <a class="nav-item nav-link text-pink1" href="#">News and Press</a> -->
+                        <a class="nav-item nav-link text-pink1" href="contact.html">Contact</a>
+                        <span>
+                            <a href="www.facebook.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="www.instagram.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="www.youtube.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                            <a href="www.pinterest.com" class="d-inline me-2 nav-link text-pink1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <div>
+        <p class="text-center m-5">htetnaingwin007.github.io©All right reserved.</p>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+</html>

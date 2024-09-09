@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordion</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center text-danger my-5">Accordion</h1>
+
+    <div class="accordion m-5" id="accordionParent">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question1">Question 1?</button>
+            </div>
+            <div class="collapse accordion-collapse show" id="question1" data-bs-parent="#accordionParent">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit error quae quidem non dolorem, eius, consequatur beatae excepturi accusantium, modi quisquam culpa similique. Deserunt asperiores accusantium possimus rerum veritatis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question2">Question 2?</button>
+            </div>
+            <div class="collapse accordion-collapse" id="question2" data-bs-parent="#accordionParent">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit error quae quidem non dolorem, eius, consequatur beatae excepturi accusantium, modi quisquam culpa similique. Deserunt asperiores accusantium possimus rerum veritatis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question3">Question 3?</button>
+            </div>
+            <div class="collapse accordion-collapse" id="question3" data-bs-parent="#accordionParent">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit error quae quidem non dolorem, eius, consequatur beatae excepturi accusantium, modi quisquam culpa similique. Deserunt asperiores accusantium possimus rerum veritatis!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

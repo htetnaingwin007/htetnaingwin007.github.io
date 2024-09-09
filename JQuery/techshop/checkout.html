@@ -15,7 +15,7 @@
                 <li><a href="" class="home">Home</a></li>
                 <li class="li1">
                     <a href="index.html" class="cart_nav_item"><i class="fa-solid fa-cart-shopping  fa-lg"></i></a>
-                    <span class="cart_noti">0</span>
+                    <span class="cart_noti" id="count_item">0</span>
                 </li>
             </ul>
         </div>
@@ -41,48 +41,15 @@
             </tr>
         </tfoot>
     </table>
+
+    <button style="padding: 10px;background-color: green;color: white;" id="order_now">Order Now</button>
     
 
     
 
     <script src="jquery-3.7.1.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            itemsGetString = localStorage.getItem('shops');
-            console.log(itemsGetString);
-            if (itemsGetString) {
-                itemsGetArray = JSON.parse(itemsGetString);
-                console.log(itemsGetArray);
-                
-                let data = '';
-                    let j = 1 ;
-                    total=0;
-                    $.each(itemsGetArray,function(i,v){
-                        // console.log("This is key"+i);
-                        // console.log(v.stu_name);
-                        subtotal=v.qty * v.price;
-                        
-                        data += `<tr>
-                                <td>${j++}</td>
-                                <td>${v.name}</td>
-                                <td>${v.price}</td>
-                                <td> <button>+</button> ${v.qty} <button>-</button> </td>
-                                <td>${subtotal}</td>   
-                            </tr>`
-                            
-                        
-                        total+=subtotal;
-                        // console.log(total);
-                        
-                       $('#total').html(total);
-                            
-                    })
-
-                    $('#body').html(data);
-                    
-
-            }
-        })
+    <script src="scripts.js">
+        
         
         
         
