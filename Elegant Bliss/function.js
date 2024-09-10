@@ -20,14 +20,23 @@ function next()
 {
     document.getElementById('slider-container').scrollLeft += 270;
 }
-function prev(){
-    document.getElementById('slider1-container').scrollLeft -= 270;
-}
+// function prev(){
+//     document.getElementById('slider1-container').scrollLeft -= 270;
+// }
 
-function next()
-{
-    document.getElementById('slider1-container').scrollLeft += 270;
-}
+// function next()
+// {
+//     document.getElementById('slider1-container').scrollLeft += 270;
+// }
+// function prev(){
+//     document.getElementById('slider2-container').scrollLeft -= 270;
+// }
+
+// function next()
+// {
+//     document.getElementById('slider2-container').scrollLeft += 270;
+// }
+
 
 
 $(".slide img").on("click" , function(){
