@@ -1,8 +1,16 @@
 @font-face {
     font-family: Inter;
-    src: url(/Etoile-Regular.otf);
+    src: url(/Plus_Jakarta_Sans/static/PlusJakartaSans-Light.ttf);
 }
 
+@font-face {
+    font-family: shiftynote;
+    src: url(/Roboto_Mono/static/RobotoMono-SemiBold.ttf);
+}
+@font-face {
+    font-family: mainheadtitle;
+    src: url(/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf);
+}
 .name-main{
     font-family: shiftynote !important;
 }
@@ -10,9 +18,11 @@
     font-family: Inter !important;
 }
 .thinfont{
-    font-family: interthin !important;
+    font-family: Inter !important;
 }
-
+h1{
+    font-family: mainheadtitle !important;
+}
 
 
 /* text color and background color */
