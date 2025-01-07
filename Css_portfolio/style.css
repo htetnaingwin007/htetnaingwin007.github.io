@@ -32,6 +32,10 @@ h1{
 .text-violet{
     color: #6B62FF;
 }
+.hover-underlined:hover{
+    text-decoration: underline;
+    text-decoration-color: #6B62FF;
+}
 
 .bg-maincolor{
     background-color:#2F2E41 !important;
