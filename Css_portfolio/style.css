@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Inter;
+    src: url(/Etoile-Regular.otf);
+}
+
+.name-main{
+    font-family: shiftynote !important;
+}
+*{
+    font-family: Inter !important;
+}
+.thinfont{
+    font-family: interthin !important;
+}
+
+
+
+/* text color and background color */
+.text-maincolor{
+    color: #2F2E41 !important;
+}
+.text-violet{
+    color: #6B62FF;
+}
+
+.bg-maincolor{
+    background-color:#2F2E41 !important;
+}
+.bg-violet{
+    background-color:#6B62FF !important;
+}
+.bg-violet:hover{
+    opacity: 80%;
+}
+
+/* ------ */
+
+/* sizing skill icon  */
+.skill-logo{
+    width: 60px;
+    height: 60px;
+}
+/* ------ */
+
+/* margin container  */
+.container-margin{
+    margin-top: 140px !important;
+    margin-bottom: 80px !important;
+}
+.container-margin1{
+    margin-top: 130px !important;
+    margin-bottom: 80px !important;
+}
+/* ---- */
+
+/* shape  */
+
+.custom-shape-divider-top-1735881836 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1735881836 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 108px;
+}
+
+.custom-shape-divider-top-1735881836 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1735882132 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1735882132 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 108px;
+}
+
+.custom-shape-divider-top-1735882132 .shape-fill {
+    fill: #2F2E41;
+}
+
+/* shape end */
+
+/* hover effect */
+.card-effect:hover{
+    /* transform: ; */
+    -webkit-box-shadow: 0px 6px 8px -3px #000000, 2px 1px 15px 13px rgba(255,255,255,0.18); 
+    box-shadow: 0px 4px 6px -3px #000000, 1px 1px 15px 13px rgba(255,255,255,0.18);
+    
+}
+/* end hover effect  */
+
+/* carousel button  */
+/* .carousel-control-prev{
+    justify-content: start;
+}
+.carousel-control-next{
+    justify-content: end;
+} */
+
+
+/* slider codepen  */
+section{
+    margin-top: 40px;
+  }
+  .card {
+    border: 2px solid red;
+    margin: 10px 4px;
+    transition: .6s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-block {
+     padding: 10px;
+  }
+  
+  .scrollcards {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+  }
+  
+  div.scrollcards .card {
+      display: inline-block;
+      padding: 14px;
+      text-decoration: none;
+      height: auto; 
+      width: 300px;
+  }
+
+/* slider end  */
+
+.circle-icon{
+    padding: 20px;
+    background-color: #6b62ff;
+
+}
+.box-shadow1{
+    -webkit-box-shadow: 0px 1px 19px 7px rgba(0,0,0,0.20); 
+    box-shadow: 0px 1px 19px 7px rgba(0,0,0,0.20);
+    }
+/* slider end  */
+
+/* footer start  */
+
+.custom-shape-divider-top-1736152655 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736152655 svg {
+    position: relative;
+    display: block;
+    width: calc(178% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-top-1736152655 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.bg-footercolor{
+    background-color: #343150;
+}
+     
