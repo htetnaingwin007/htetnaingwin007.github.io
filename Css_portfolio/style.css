@@ -35,7 +35,11 @@ h1{
 .hover-underlined:hover{
     text-decoration: underline;
     text-decoration-color: #6B62FF;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
 }
+
+  
 
 .bg-maincolor{
     background-color:#2F2E41 !important;
